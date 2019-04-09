@@ -1,0 +1,15 @@
+Package: TreeVol
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Author: Who wrote it
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+License: GNU General Public License
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Suggests: 
+   testthat
+NeedsCompilation: no
+Packaged: 2019-02-03 22:10:32 UTC; Pascal
