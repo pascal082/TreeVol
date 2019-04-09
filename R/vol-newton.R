@@ -1,4 +1,5 @@
 
+#' @title  volumn Netwton
 #' @details Tree Volume Estimation
 #' @author A. Akinnagbe, P. O. Omondiagbe & S. O. Akindele
 #' @description  This function estimates tree volume using Newton's formula

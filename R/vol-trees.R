@@ -7,6 +7,10 @@
 #' volTree(x)
 #' @export
 volTrees <- function(x){
+  
+  if(!is.data.frame(x)){
+    stop("The input value is not a dataframe")
+  }
   # conversion from cm to m
   # x[1] = x[1]/100
   # x[2] = x[2]/100

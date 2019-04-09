@@ -4,10 +4,8 @@
 #' @description This function estimates tree volume using Huber's formula
 #' @param dm diameter of a tree at the middle in centimeters (cm)
 #' @param h height of a tree in meters (m)
-#' 
 #' @return Tree volume
 #' @example 
-#' 
 #' @export
 volHuber <- function(dm, h){
   

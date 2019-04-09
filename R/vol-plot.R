@@ -1,4 +1,5 @@
 
+#' @title  Volumn Plot
 #' @details Calculate total tree volume per plot
 #' @description   Here
 #' @param x dataframe or matrix of trees in a plot with diameter and height

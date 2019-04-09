@@ -8,7 +8,6 @@
 #' @param h height of a tree in meters (m)
 #' @return Tree volume
 #' @example 
-#' 
 #' @export
 volSmalian <- function(db, dt, h){
   if (!is.numeric(db) || !is.double(db)){
