@@ -2,7 +2,7 @@
 % Please edit documentation in R/vol-smalian.R
 \name{volSmalian}
 \alias{volSmalian}
-\title{Tree Volume Estimation}
+\title{Tree Volume Estimation using Smalian Formula}
 \usage{
 volSmalian(db, dt, h)
 }
@@ -20,6 +20,13 @@ Tree volume
 }
 \description{
 This function estimates tree volume using Smalian's formula
+}
+\details{
+Tree Volume Estimation
+}
+\examples{
+volSmalian(db = 27.6, dt = 11.2, h = 28.6)
+
 }
 \author{
 A. Akinnagbe, P. O. Omondiagbe & S. O. Akindele

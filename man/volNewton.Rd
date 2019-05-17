@@ -2,7 +2,7 @@
 % Please edit documentation in R/vol-newton.R
 \name{volNewton}
 \alias{volNewton}
-\title{volumn Netwton}
+\title{Tree Volume using Newton's Formula}
 \usage{
 volNewton(db, dm, dt, h)
 }
@@ -23,6 +23,11 @@ This function estimates tree volume using Newton's formula
 }
 \details{
 Tree Volume Estimation
+}
+\examples{
+ 
+volNewton(db = 46.5, dm = 27.6, dt = 11.2, h = 38.6)
+
 }
 \author{
 A. Akinnagbe, P. O. Omondiagbe & S. O. Akindele

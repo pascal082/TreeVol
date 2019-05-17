@@ -2,7 +2,7 @@
 % Please edit documentation in R/vol-huber.R
 \name{volHuber}
 \alias{volHuber}
-\title{Tree Volume Estimation}
+\title{Tree Volume using Huber's Formula}
 \usage{
 volHuber(dm, h)
 }
@@ -16,6 +16,14 @@ Tree volume
 }
 \description{
 This function estimates tree volume using Huber's formula
+}
+\details{
+Tree Volume Estimation
+}
+\examples{
+ 
+volHuber(dm = 35.6, h = 20)
+
 }
 \author{
 A. Akinnagbe, P. O. Omondiagbe & S. O. Akindele
