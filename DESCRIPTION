@@ -1,14 +1,14 @@
 Package: TreeVol
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Tree Volume Estimation
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
+Author: Akin Akinnagbe, Pascal Omondiagbe & Shadrach Akindele
+Maintainer: Akin Akinnagbe <akin.akinnagbe@gmail.com>
+Description: Estimates individual tree volume and stand tree volume
 License: GNU General Public License
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1
 Suggests: 
    testthat
 NeedsCompilation: no

@@ -5,5 +5,5 @@ roxygen2::roxygenize()
 devtools::build()
 devtools::install()
 
-#To tun test cases
+#To run test cases
 devtools:test()
