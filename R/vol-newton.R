@@ -1,15 +1,22 @@
 
-#' @title  volumn Netwton
+#' @title  Tree Volume using Newton's Formula
+#' 
 #' @details Tree Volume Estimation
+#' 
 #' @author A. Akinnagbe, P. O. Omondiagbe & S. O. Akindele
+#' 
 #' @description  This function estimates tree volume using Newton's formula
+#' 
 #' @param db diameter of a tree at the base in centimeters (cm)
 #' @param dm diameter of a tree at the middle in centimeters (cm)
 #' @param dh diameter of a tree at the top in centimeters (cm)
 #' @param h height of a tree in meters (m)
+#' 
 #' @return Tree volume
-#' @example 
-#' volNewton(2,3,4,2)
+#' 
+#' @examples  
+#' volNewton(db = 46.5, dm = 27.6, dt = 11.2, h = 38.6)
+#' 
 #' @export
 volNewton <- function(db, dm, dt, h){
   if (!is.numeric(db) || !is.double(db)){

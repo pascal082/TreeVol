@@ -1,11 +1,20 @@
 
-#' @title Tree Volume Estimation
+#' @title  Tree Volume using Huber's Formula
+#' 
+#' @details Tree Volume Estimation
+#' 
 #' @author A. Akinnagbe, P. O. Omondiagbe & S. O. Akindele
+#' 
 #' @description This function estimates tree volume using Huber's formula
+#' 
 #' @param dm diameter of a tree at the middle in centimeters (cm)
 #' @param h height of a tree in meters (m)
+#' 
 #' @return Tree volume
-#' @example 
+#' 
+#' @examples  
+#' volHuber(dm = 35.6, h = 20)
+#' 
 #' @export
 volHuber <- function(dm, h){
   

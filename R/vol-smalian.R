@@ -1,13 +1,22 @@
 
-#' @title Tree Volume Estimation
+#' @title Tree Volume Estimation using Smalian Formula
+#' 
+#' @details Tree Volume Estimation
+#' 
 #' @author A. Akinnagbe, P. O. Omondiagbe & S. O. Akindele
+#' 
 #' @description This function estimates tree volume using Smalian's formula
+#' 
 #' @param db diameter of a tree at the base in centimeters (cm)
 #' @param dm diameter of a tree at the middle in centimeters (cm)
 #' @param dh diameter of a tree at the top in centimeters (cm)
 #' @param h height of a tree in meters (m)
+#' 
 #' @return Tree volume
-#' @example 
+#' 
+#' @examples
+#' volSmalian(db = 27.6, dt = 11.2, h = 28.6)
+#' 
 #' @export
 volSmalian <- function(db, dt, h){
   if (!is.numeric(db) || !is.double(db)){
